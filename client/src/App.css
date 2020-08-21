@@ -1,0 +1,45 @@
+.RegForm {
+    margin-bottom: 30px
+}
+
+.Search {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.inputSearch {
+    -moz-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    -webkit-appearance: none !important;
+    -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    color: #6c757d;
+    font-size: 1rem;
+    height: 3rem;
+    outline: none;
+    padding: 1rem;
+    padding-left: 1rem;
+    width: calc(100% - 4rem);
+}
+
+.profile {
+    margin-top: 2rem;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 1rem;
+}
+
+.button {
+    width: 78%;
+    padding-bottom: 20px;
+}
+
+.alert{
+    padding-top: 25px
+}
