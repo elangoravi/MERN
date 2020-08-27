@@ -14,7 +14,7 @@ MERN CRUD
 
 *Dynamic Search*
 
-<img src="./images/DynSearch.png" align="left" height="300" width="300">
+![DynamicSearch](./images/DynSearch.png?raw=true)
 
 *Profile Overview - Update/Delete - Delete Modal*
 
