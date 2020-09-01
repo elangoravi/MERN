@@ -103,18 +103,9 @@ export class UpdateProfile extends Component {
                                             <FormGroup>
                                                 <Label>Number of Months</Label>
                                                 <Input type="select" name="nMonths" value={nMonths} onChange={this.handleInput}>
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
-                                                    <option>6</option>
-                                                    <option>7</option>
-                                                    <option>8</option>
-                                                    <option>9</option>
-                                                    <option>10</option>
-                                                    <option>11</option>
-                                                    <option>12</option>
+                                                    {[...Array(12)].map((x, i) =>
+                                                        <option key={i}>{i + 1}</option>
+                                                    )}
                                                 </Input>
                                             </FormGroup>
                                             <FormGroup>
